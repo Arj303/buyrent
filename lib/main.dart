@@ -1,5 +1,8 @@
+import 'package:buyrent/ProfilePage.dart';
+import 'package:buyrent/editprofile.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'Feed.dart';
 import 'firebase_options.dart';
 
 import 'homepage.dart';
@@ -41,7 +44,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: HomePage(),
+      home: ProfilePage(),
     );
   }
 }
